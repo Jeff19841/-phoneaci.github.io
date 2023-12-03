@@ -135,7 +135,8 @@ ul{
 }
 
 .img-inner{
-    display: inline;
+    display: block;
+    width: 120px;
 }
 
 }
