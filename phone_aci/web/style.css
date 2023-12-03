@@ -1,0 +1,212 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* 主頁 */
+.top{
+    background: linear-gradient(96deg, rgba(230, 174, 65, 0.58) 45.46%, rgba(228, 183, 98, 0.00) 115.18%);
+    width: 430px;
+    height: 6.5625rem;
+    flex-shrink: 0;
+    margin: auto;
+    display: flex;
+}
+
+.li_symbol{
+    margin-top: 63px;
+    margin-left: 10px; 
+}
+
+.ndhu_symbol{
+    height: 50px;
+    width: 312px;
+    margin-top: 55px;
+    margin-left: 20px; 
+}
+
+.post{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 297px; 
+    height: 506px;
+    background-color: #d9d9d9;
+}
+
+.heightlight{
+    width: 430px;
+    height: 153px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d9d9d9;
+}
+
+/* 名單 */
+.menbrane_box{
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px;
+    flex-wrap: wrap;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9{
+    width: 430px;
+    display: flex
+}
+
+.box-item1{
+    padding: 20px;
+    text-align: center;
+    width: 10rem;
+    background: #FFA654;
+    font-size: 3rem; 
+}
+
+.box-item2{
+    padding: 20px;
+    width: 16.875rem;
+    background: rgba(0, 0, 0, 0.18);
+    text-align: left;
+    font-size: 1rem;    
+    font-weight: 400;
+}
+
+.cc, .down{
+    background-color: #d9d9d9;
+    text-align: center;
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+/* 地圖 */
+.mapitem{
+    width: 300px;
+    padding: 10px;
+}
+
+.mapbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px; 
+}
+
+/* 作品集1 */
+.container{
+    width: auto;
+    display: flex;
+    width: 430px;
+}
+
+.ma-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic-ls{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 9px;
+    list-style-type: none;
+}
+
+.pic-item{
+    width: 33%;
+}
+
+.pic-item > a{
+    position: relative;
+    display: block;
+}
+
+.img-inner{
+    display: inline;
+}
+
+.pic-intro{
+    margin-left: 15px;
+}
+
+.pic-title{
+    font-size: 1.2em;
+    color: black;
+}
+
+
+/* 頁數標籤 */
+
+.page_control{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.page_item{
+    padding: 10px;
+}
+
+.upbtn{
+    text-align: center;
+    border: 0;
+}
+
+/* 跳轉清單開始 */
+.changebox{
+    display: flex;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px;
+    border: 10px solid blue;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.change_item{
+    width: 430px;
+
+}
+
+/* 合作 */
+.cp_box{
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px;
+    flex-wrap: wrap;
+    border: #2cb452 10px solid;
+}
+
+.cp_item1{
+    padding: 20px;
+    text-align: center;
+    width: 160px;
+}
+
+.cp_item2{
+    padding: 20px;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.18);
+    text-align: left;
+    font-size: 1rem;    
+    font-weight: 400;
+}
+
+.cpbox1{
+    width: 430px;
+    display: flex;
+    padding-bottom: 10px;
+}
