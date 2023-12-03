@@ -121,10 +121,12 @@ ul{
     margin-block-end: 1em;
     padding-inline-start: 9px;
     list-style-type: none;
+    margin-left: 15px;
 }
 
 .pic-item{
     width: 33%;
+    text-align: center;
 }
 
 .pic-item > a{
@@ -136,8 +138,6 @@ ul{
     display: inline;
 }
 
-.pic-intro{
-    margin-left: 15px;
 }
 
 .pic-title{
