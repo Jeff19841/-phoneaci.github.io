@@ -220,22 +220,24 @@
     margin-right: auto;
     width: 430px;
     flex-wrap: wrap;
-    border: #2cb452 10px solid;
 }
 
-.cp_item1{
+.cpbox1{
+    justify-content: center;
+}
+
+.cp_item1 img{
     padding: 20px;
     text-align: center;
-    width: 160px;
+    width: 130px;
 }
 
 .cp_item2{
-    padding: 20px;
-    width: 250px;
-    background: rgba(0, 0, 0, 0.18);
-    text-align: left;
-    font-size: 1rem;    
-    font-weight: 400;
+    width: 220px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
 }
 
 .cpbox1{
