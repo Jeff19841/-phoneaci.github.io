@@ -27,12 +27,11 @@
 }
 
 .post{
-    margin-top: 40px;
+    display: block;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
-    width: 297px; 
-    height: 506px;
-    background-color: #d9d9d9;
+    margin-top: 20px;
 }
 
 .heightlight{
@@ -45,35 +44,42 @@
 }
 
 /* 名單 */
+
+
 .menbrane_box{
     display: flex;
-    margin-top: 30px;
+    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
     width: 430px;
     flex-wrap: wrap;
 }
 
+.box1{
+    line-height: 60px;
+}
+
 .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9{
     width: 430px;
-    display: flex
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px dotted black;
+    padding: 10px 0px;
 }
 
 .box-item1{
-    padding: 20px;
+    display: block;
     text-align: center;
-    width: 10rem;
-    background: #FFA654;
-    font-size: 3rem; 
+    width: 100px;
 }
 
 .box-item2{
-    padding: 20px;
-    width: 16.875rem;
-    background: rgba(0, 0, 0, 0.18);
+    display: block;
     text-align: left;
-    font-size: 1rem;    
-    font-weight: 400;
+    justify-content: left;
+    width: 203px;
+    line-height: 25px;
 }
 
 .cc, .down{
@@ -86,8 +92,8 @@
 }
 /* 地圖 */
 .mapitem{
-    width: 300px;
-    padding: 10px;
+    width: 430px;
+    padding-top: 20px;
 }
 
 .mapbox{
@@ -116,15 +122,13 @@
     list-style-type: none;
 }
 
-ul{
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    list-style-type: none;
-}
-
 .pic-item{
     width: 33%;
     text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 9px;
+    list-style-type: none;
 }
 
 .pic-item > a{
@@ -137,13 +141,23 @@ ul{
     width: 120px;
 }
 
+.img-inner img{
+    width: 120px;
+    height: 67.5px;
+}
+
+.pic-intro{
+    border-top: 2px solid #551a8b;
 }
 
 .pic-title{
-    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
     color: black;
+    list-style-type: none;
+    align-items: baseline;
 }
-
 
 /* 頁數標籤 */
 
@@ -164,19 +178,39 @@ ul{
 
 /* 跳轉清單開始 */
 .changebox{
-    display: flex;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     width: 430px;
-    border: 10px solid blue;
-    justify-content: center;
-    flex-wrap: wrap;
 }
-.change_item{
-    width: 430px;
 
+.changebox_tittle{
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 26px;
+    text-align: center;
+    color: black;
 }
+
+.changebox_tittle span{
+    position: relative;
+    z-index: 2;
+}
+
+.changebox_tittle::before{
+    content: attr(data-en);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(229, 192, 70, .3);
+    font-size: 60px;
+    font-style: italic;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 /* 合作 */
 .cp_box{
